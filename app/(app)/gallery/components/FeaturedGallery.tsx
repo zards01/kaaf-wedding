@@ -42,7 +42,7 @@ export default function FeaturedGallery() {
           className="relative h-[650px] rounded-[40px] overflow-hidden"
         >
           <Image
-            src="/gallery/0628-YON09788.jpg"
+            src="/gallery/0608-YON03140_11_11zon.jpg"
             alt="Featured Wedding"
             fill
             className="object-cover hover:scale-105 transition duration-[2000ms]"
