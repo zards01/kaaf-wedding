@@ -8,7 +8,7 @@ export default function PackageCTA() {
       "Halo, saya tertarik dengan layanan MC / WO / Engagement";
     
     window.open(
-      `https://wa.me/6281234567890?text=${encodeURIComponent(message)}`,
+      `https://wa.me/628821458144?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };

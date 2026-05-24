@@ -13,6 +13,7 @@ export default function PackageCTA() {
 
       <a
         href="https://wa.me/628821458144"
+        target="blank"
         className="px-8 py-4 rounded-full bg-[#d4b15a] text-black font-semibold inline-block"
       >
         Chat WhatsApp

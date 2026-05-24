@@ -59,10 +59,17 @@ export default function AllVenueHero() {
               active:scale-95
             "
           >
-            Konsultasi Sekarang
+                <a
+              href="https://wa.me/628821458144"
+              target="_blank"
+              className="
+              "
+            >
+              Konsultasi WhatsApp
+            </a>
           </button>
 
-          <button
+          {/* <button
             className="
               px-8 py-4 rounded-full
               border border-white/20 text-white
@@ -75,10 +82,49 @@ export default function AllVenueHero() {
             "
           >
             Lihat Venue
-          </button>
+          </button> */}
+              
         </div>
 
-       
+        <motion.div
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1,
+              delay: 1,
+            }}
+            className="
+              mt-14
+              flex flex-col md:flex-row
+              items-star 
+              gap-5
+              text-sm
+              tracking-[0.2em]
+              text-neutral-400
+            "
+          >
+
+            <p>
+              Instagram :
+              <span className="text-[#f5e7b2] ml-2">
+                @kaaf.weddingorganizer
+              </span>
+            </p>
+
+            <div className="hidden md:block w-2 h-2 rounded-full bg-[#d4b15a]" />
+
+            <p>
+              WhatsApp :
+              <span className="text-[#f5e7b2] ml-2">
+                088 2145 8144
+              </span>
+            </p>
+
+          </motion.div>
 
       </div>
     </section>

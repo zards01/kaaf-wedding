@@ -75,7 +75,7 @@ export default function AboutCTA() {
           </Link>
 
           <Link
-            href="/portfolio"
+            href="/gallery"
             className="
               px-8 py-4 rounded-full
               border border-[#d4b15a]

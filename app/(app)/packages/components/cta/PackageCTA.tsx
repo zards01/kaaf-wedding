@@ -82,7 +82,7 @@ export default function PackageCTA() {
 
           {/* Portfolio CTA */}
           <a
-            href="/portfolio"
+            href="/gallery"
             className="px-8 py-4 rounded-full border border-[#d4b15a] text-[#f5e7b2] hover:bg-[#d4b15a] hover:text-black transition duration-300"
           >
             Lihat Portfolio

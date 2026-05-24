@@ -246,7 +246,7 @@ export default function PlannerOrganizerSection() {
 
         {/* CTA Button */}
         <motion.a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/628821458144"
           target="_blank"
           whileHover={{
             scale: 1.05,

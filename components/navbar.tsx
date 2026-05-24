@@ -90,23 +90,25 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <Link
-            href="/contact"
-            className="
-              hidden md:block
-              border border-[#d4b15a]
-              text-[#f1df9b]
-              px-5 py-2
-              rounded-full
-              text-sm
-              hover:bg-[#d4b15a]
-              hover:text-black
-              transition duration-300
-            "
-          >
-            Consultation
-          </Link>
+    {/* Desktop CTA */}
+<Link
+  href="https://wa.me/628821458144"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    hidden md:block
+    border border-[#d4b15a]
+    text-[#f1df9b]
+    px-5 py-2
+    rounded-full
+    text-sm
+    hover:bg-[#d4b15a]
+    hover:text-black
+    transition duration-300
+  "
+>
+  Konsultasi
+</Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -190,23 +192,25 @@ export default function Navbar() {
                 ))}
 
                 {/* Mobile CTA */}
-                <Link
-                  href="/contact"
-                  onClick={() => setOpen(false)}
-                  className="
-                    mt-6
-                    text-center
-                    border border-[#d4b15a]
-                    text-[#f1df9b]
-                    px-6 py-3
-                    rounded-full
-                    hover:bg-[#d4b15a]
-                    hover:text-black
-                    transition duration-300
-                  "
-                >
-                  Consultation
-                </Link>
+<Link
+  href="https://wa.me/628821458144"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setOpen(false)}
+  className="
+    mt-6
+    text-center
+    border border-[#d4b15a]
+    text-[#f1df9b]
+    px-6 py-3
+    rounded-full
+    hover:bg-[#d4b15a]
+    hover:text-black
+    transition duration-300
+  "
+>
+  Konsultasi
+</Link>
               </div>
             </motion.div>
           </>

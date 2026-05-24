@@ -51,7 +51,7 @@ export default function NonVenuePackages() {
   const handleConsultation = (packageName: string) => {
     const message = `Halo, saya tertarik dengan ${packageName}. Bisa konsultasi lebih lanjut?`;
 
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/628821458144?text=${encodeURIComponent(
       message
     )}`;
 

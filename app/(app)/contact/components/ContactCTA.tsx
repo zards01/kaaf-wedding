@@ -26,7 +26,7 @@ export default function ContactCTA() {
         </p>
 
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/628821458144"
           target="_blank"
           className="px-8 py-4 rounded-full bg-[#d4b15a] text-black font-semibold"
         >

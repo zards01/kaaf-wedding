@@ -94,7 +94,7 @@ export default function AboutHero() {
         >
           <div className="relative h-[350px] sm:h-[450px] md:h-[650px] rounded-[25px] md:rounded-[40px] overflow-hidden shadow-2xl shadow-[#d4b15a]/20">
             <Image
-              src="/about/kaaflogo.png"
+              src="/about/logokaaf.png"
               alt="KAAF Wedding Organizer"
               fill
               className="object-cover"
